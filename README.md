@@ -1,5 +1,14 @@
 # MT Data Classification Framework
 
+
+**ML framework for magnetic tweezers trace classification written as a part of my master's thesis. Currently reworking this project with AI assisted coding, focusing on improving the synthetic data generation algorithm to enable more expressive models and increase overall performance.**
+
+
+
+
+
+
+
 ### Modular evaluation for force extension
 
 Example run
