@@ -1,5 +1,0 @@
-path,experiment_id,source,n_beads,correct,accuracy,method,n_predicted_good,n_predicted_bad,tp,tn,fp,fn
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250514_TX_OF_7pN_wtholo_1437_r1000ga2,20250514_TX_OF_7pN_wtholo_1437_r1000ga2,TX_OF,120,37,0.30833333333333335,baseline_dt,14,106,6,31,8,75
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250514_TX_OF_7pN_wtholo_1437_r1000ga2,20250514_TX_OF_7pN_wtholo_1437_r1000ga2,TX_OF,120,37,0.30833333333333335,baseline_rf,14,106,6,31,8,75
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250514_TX_OF_7pN_wtholo_1437_r1000ga2,20250514_TX_OF_7pN_wtholo_1437_r1000ga2,TX_OF,120,39,0.325,baseline_lr,18,102,9,30,9,72
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250514_TX_OF_7pN_wtholo_1437_r1000ga2,20250514_TX_OF_7pN_wtholo_1437_r1000ga2,TX_OF,120,38,0.31666666666666665,approach4_rules,5,115,2,36,3,79

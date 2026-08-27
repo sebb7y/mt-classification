@@ -1,8 +1,0 @@
-path,experiment_id,source,n_beads,correct,accuracy,method,n_predicted_good,n_predicted_bad,tp,tn,fp,fn
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250701_1005_TX_wt_OF_10pN_Pb37_r1000,20250701_1005_TX_wt_OF_10pN_Pb37_r1000,TX_OF,108,89,0.8240740740740741,baseline_dt_extra,7,101,3,86,4,15
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250701_1005_TX_wt_OF_10pN_Pb37_r1000,20250701_1005_TX_wt_OF_10pN_Pb37_r1000,TX_OF,108,91,0.8425925925925926,baseline_rf_extra,5,103,3,88,2,15
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250701_1005_TX_wt_OF_10pN_Pb37_r1000,20250701_1005_TX_wt_OF_10pN_Pb37_r1000,TX_OF,108,90,0.8333333333333334,baseline_dt,0,108,0,90,0,18
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250701_1005_TX_wt_OF_10pN_Pb37_r1000,20250701_1005_TX_wt_OF_10pN_Pb37_r1000,TX_OF,108,90,0.8333333333333334,baseline_rf,4,104,2,88,2,16
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250701_1005_TX_wt_OF_10pN_Pb37_r1000,20250701_1005_TX_wt_OF_10pN_Pb37_r1000,TX_OF,108,90,0.8333333333333334,baseline_lr,0,108,0,90,0,18
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250701_1005_TX_wt_OF_10pN_Pb37_r1000,20250701_1005_TX_wt_OF_10pN_Pb37_r1000,TX_OF,108,87,0.8055555555555556,approach1_scaled_dt,9,99,3,84,6,15
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250701_1005_TX_wt_OF_10pN_Pb37_r1000,20250701_1005_TX_wt_OF_10pN_Pb37_r1000,TX_OF,108,82,0.7592592592592593,approach4_rules,10,98,1,81,9,17

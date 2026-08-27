@@ -1,2 +1,0 @@
-path,experiment_id,source,n_beads,correct,accuracy,method,n_predicted_good,n_predicted_bad,tp,tn,fp,fn
-/scistor/guest/ssk256/tweezcat/data/TX_OF/TXTL_OF_fp3h3_61_wtholo_7pN_37_PURE_I_only_r1000,TXTL_OF_fp3h3_61_wtholo_7pN_37_PURE_I_only_r1000,TX_OF,87,55,0.632183908045977,approach4_rules,1,86,0,55,1,31

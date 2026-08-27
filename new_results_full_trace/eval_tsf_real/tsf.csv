@@ -1,9 +1,0 @@
-path,experiment_id,source,n_beads,correct,accuracy,method,n_predicted_good,n_predicted_bad,tp,tn,fp,fn
-/scistor/guest/ssk256/tweezcat/data/TX_AF/20250705_1523_TX_wtholo_AF_3pN_Pb37,20250705_1523_TX_wtholo_AF_3pN_Pb37,TX_AF,228,142,0.621930,tsf,4,224,1,140,3,84
-/scistor/guest/ssk256/tweezcat/data/TX_AF/20250707_1254_TX_wtholo_AF_7pN_Pb37_r1000,20250707_1254_TX_wtholo_AF_7pN_Pb37_r1000,TX_AF,411,258,0.626764,tsf,2,409,0,257,2,152
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250514_TX_OF_7pN_wtholo_1437_r1000ga2,20250514_TX_OF_7pN_wtholo_1437_r1000ga2,TX_OF,120,39,0.326667,tsf,0,120,0,39,0,81
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,TX_OF,371,178,0.480323,tsf,17,354,16,174,1,180
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250630_1559_TX_wt_OF_10pN_Pb37_r1000,20250630_1559_TX_wt_OF_10pN_Pb37_r1000,TX_OF,37,28,0.762162,tsf,0,37,0,28,0,9
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250701_1005_TX_wt_OF_10pN_Pb37_r1000,20250701_1005_TX_wt_OF_10pN_Pb37_r1000,TX_OF,108,90,0.833333,tsf,0,108,0,90,0,18
-/scistor/guest/ssk256/tweezcat/data/ssRNA/20260222/exp1/experiment,experiment,ssRNA,250,199,0.796000,tsf,6,244,1,196,5,48
-/scistor/guest/ssk256/tweezcat/data/ssRNA/20260228/exp1/experiment,experiment,ssRNA,221,165,0.745701,tsf,1,220,0,166,1,54

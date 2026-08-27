@@ -1,8 +1,0 @@
-path,experiment_id,source,n_beads,correct,accuracy,method,n_predicted_good,n_predicted_bad,tp,tn,fp,fn
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,TX_OF,371,300,0.8086253369272237,baseline_dt_extra,197,174,161,139,36,35
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,TX_OF,371,298,0.8032345013477089,baseline_rf_extra,201,170,162,136,39,34
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,TX_OF,371,268,0.7223719676549866,baseline_dt,107,264,100,168,7,96
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,TX_OF,371,285,0.7681940700808625,baseline_rf,176,195,143,142,33,53
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,TX_OF,371,175,0.4716981132075472,baseline_lr,0,371,0,175,0,196
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,TX_OF,371,280,0.7547169811320755,approach1_scaled_dt,185,186,145,135,40,51
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,20250627_1406_TX_wt_OF_7pN_Pb37_r1000nusa200ga2,TX_OF,371,164,0.4420485175202156,approach4_rules,13,358,1,163,12,195

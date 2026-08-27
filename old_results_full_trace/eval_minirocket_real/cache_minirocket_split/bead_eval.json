@@ -1,9 +1,0 @@
-{
-  "n_test_beads": 1746,
-  "n_test_experiments": 8,
-  "accuracy_majority_vote": 0.6145475372279496,
-  "accuracy_sum_threshold": 0.6139747995418099,
-  "sum_threshold_frac": 0.5,
-  "model_dir": "/net/sys/pscst201/IT-ITVO-HPC@ada-nodes/guest/ssk256/tweezcat/~/tweezcat/eval_minirocket_real/cache_minirocket_split/minirocket_20260307_205310",
-  "split_file": "eval_minirocket_real/split.json"
-}

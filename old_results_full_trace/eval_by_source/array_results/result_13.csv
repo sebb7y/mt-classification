@@ -1,8 +1,0 @@
-path,experiment_id,source,n_beads,correct,accuracy,method,n_predicted_good,n_predicted_bad,tp,tn,fp,fn
-/scistor/guest/ssk256/tweezcat/data/ssRNA/20260228_/exp1/experiment,experiment,ssRNA,204,133,0.6519607843137255,baseline_dt,97,107,57,76,40,31
-/scistor/guest/ssk256/tweezcat/data/ssRNA/20260228_/exp1/experiment,experiment,ssRNA,204,125,0.6127450980392157,baseline_rf,65,139,37,88,28,51
-/scistor/guest/ssk256/tweezcat/data/ssRNA/20260228_/exp1/experiment,experiment,ssRNA,204,116,0.5686274509803921,baseline_lr,0,204,0,116,0,88
-/scistor/guest/ssk256/tweezcat/data/ssRNA/20260228_/exp1/experiment,experiment,ssRNA,204,128,0.6274509803921569,approach1_scaled_dt,102,102,57,71,45,31
-/scistor/guest/ssk256/tweezcat/data/ssRNA/20260228_/exp1/experiment,experiment,ssRNA,204,128,0.6274509803921569,baseline_dt_extra,36,168,24,104,12,64
-/scistor/guest/ssk256/tweezcat/data/ssRNA/20260228_/exp1/experiment,experiment,ssRNA,204,143,0.7009803921568627,baseline_rf_extra,49,155,38,105,11,50
-/scistor/guest/ssk256/tweezcat/data/ssRNA/20260228_/exp1/experiment,experiment,ssRNA,204,108,0.5294117647058824,approach4_rules,18,186,5,103,13,83

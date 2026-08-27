@@ -1,9 +1,0 @@
-{
-  "n_test_beads": 1746,
-  "n_test_experiments": 8,
-  "accuracy_majority_vote": 0.6311569301260023,
-  "accuracy_sum_threshold": 0.6311569301260023,
-  "sum_threshold_frac": 0.5,
-  "model_dir": "eval_minirocket_real/cache_minirocket_split_trivial",
-  "split_file": "eval_minirocket_real/split.json"
-}

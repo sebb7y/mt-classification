@@ -1,2 +1,0 @@
-path,experiment_id,source,n_beads,correct,accuracy,method,n_predicted_good,n_predicted_bad,tp,tn,fp,fn
-/scistor/guest/ssk256/tweezcat/data/TX_OF/20250717_1058_TX_wt_OF_7pN_Pb37_NTPs50_r50ga2,20250717_1058_TX_wt_OF_7pN_Pb37_NTPs50_r50ga2,TX_OF,217,153,0.7050691244239631,approach4_rules,19,198,3,150,16,48
