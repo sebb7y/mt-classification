@@ -1,0 +1,2 @@
+path,experiment_id,source,n_beads,correct,accuracy,method,n_predicted_good,n_predicted_bad,tp,tn,fp,fn
+/scistor/guest/ssk256/tweezcat/data/ssRNA/20260214/exp1/20260214_1439_core_RTC_nsp9_2uM_nsp13_30nM_nsp10_14_sep_25nM_nsp10_spikeup_1uM_NTPs_500uM_2pCMeCTP_1000uM_AD_test,20260214_1439_core_RTC_nsp9_2uM_nsp13_30nM_nsp10_14_sep_25nM_nsp10_spikeup_1uM_NTPs_500uM_2pCMeCTP_1000uM_AD_test,ssRNA,218,139,0.6376146788990825,minirocket,26,192,8,131,18,61

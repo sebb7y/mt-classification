@@ -1,0 +1,2 @@
+path,experiment_id,source,n_beads,correct,accuracy,method,n_predicted_good,n_predicted_bad,tp,tn,fp,fn
+/scistor/guest/ssk256/tweezcat/data/ssRNA/20260222_3rd/exp1/experiment,experiment,ssRNA,170,119,0.7,minirocket,16,154,7,112,9,42

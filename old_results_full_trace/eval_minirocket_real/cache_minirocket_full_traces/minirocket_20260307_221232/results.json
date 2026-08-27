@@ -1,0 +1,17 @@
+{
+  "train_accuracy": 0.862525,
+  "test_accuracy": 0.8486,
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.93      0.75      0.83     10009\n           1       0.79      0.94      0.86      9991\n\n    accuracy                           0.85     20000\n   macro avg       0.86      0.85      0.85     20000\nweighted avg       0.86      0.85      0.85     20000\n",
+  "confusion_matrix": [
+    [
+      7545,
+      2464
+    ],
+    [
+      564,
+      9427
+    ]
+  ],
+  "target_length": 66,
+  "model_type": "minirocket"
+}

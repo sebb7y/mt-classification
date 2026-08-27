@@ -1,0 +1,5 @@
+path,experiment_id,source,n_beads,correct,accuracy,method,n_predicted_good,n_predicted_bad,tp,tn,fp,fn
+/scistor/guest/ssk256/tweezcat/data/ssRNA/20260222/exp1/experiment,experiment,ssRNA,250,185,0.74,baseline_dt,42,208,13,172,29,36
+/scistor/guest/ssk256/tweezcat/data/ssRNA/20260222/exp1/experiment,experiment,ssRNA,250,185,0.74,baseline_rf,42,208,13,172,29,36
+/scistor/guest/ssk256/tweezcat/data/ssRNA/20260222/exp1/experiment,experiment,ssRNA,250,201,0.804,baseline_lr,0,250,0,201,0,49
+/scistor/guest/ssk256/tweezcat/data/ssRNA/20260222/exp1/experiment,experiment,ssRNA,250,171,0.684,approach4_rules,44,206,7,164,37,42

@@ -1,0 +1,15 @@
+path,experiment_id,source,n_beads,correct,accuracy,method,n_predicted_good,n_predicted_bad,tp,tn,fp,fn
+/scistor/guest/ssk256/tweezcat/data/TX_AF/20250705_1227_TX_wtholo_AF_7pN_Pb37,20250705_1227_TX_wtholo_AF_7pN_Pb37,TX_AF,263,133,0.505703,approach1_scaled_dt,2,261,1,132,1,129
+/scistor/guest/ssk256/tweezcat/data/TX_AF/20250705_1523_TX_wtholo_AF_3pN_Pb37,20250705_1523_TX_wtholo_AF_3pN_Pb37,TX_AF,228,127,0.557018,approach1_scaled_dt,36,192,10,117,26,75
+/scistor/guest/ssk256/tweezcat/data/ssRNA/20260222_/exp1/experiment,experiment,ssRNA,211,148,0.701422,approach1_scaled_dt,52,159,23,125,29,34
+/scistor/guest/ssk256/tweezcat/data/ssRNA/20260222_3rd/exp1/experiment,experiment,ssRNA,170,115,0.676471,approach1_scaled_dt,54,116,24,91,30,25
+/scistor/guest/ssk256/tweezcat/data/ssRNA/20260228/exp1/experiment,experiment,ssRNA,221,161,0.728507,approach1_scaled_dt,36,185,15,146,21,39
+/scistor/guest/ssk256/tweezcat/data/ssRNA/20260228_/exp1/experiment,experiment,ssRNA,204,129,0.632353,approach1_scaled_dt,101,103,57,72,44,31
+/scistor/guest/ssk256/tweezcat/data/TX_AF/20250707_1254_TX_wtholo_AF_7pN_Pb37_r1000,20250707_1254_TX_wtholo_AF_7pN_Pb37_r1000,TX_AF,411,251,0.610706,approach1_scaled_dt,72,339,32,219,40,120
+/scistor/guest/ssk256/tweezcat/data/TX_AF/20250708_1033_TX_wtholo_AF_10pN_Pb37,20250708_1033_TX_wtholo_AF_10pN_Pb37,TX_AF,23,10,0.434783,approach1_scaled_dt,8,15,0,10,8,5
+/scistor/guest/ssk256/tweezcat/data/dsRNA/20251204_3rd/exp1/20251204_2006_core_RTC_30nM_nsp13_NTPs_500uM_control,20251204_2006_core_RTC_30nM_nsp13_NTPs_500uM_control,dsRNA,203,130,0.640394,approach1_scaled_dt,29,174,3,127,26,47
+/scistor/guest/ssk256/tweezcat/data/dsRNA/20251205/exp1/20251205_1525_core_RTC_30nM_nsp13_NTPs_500uM_control_repeat_run,20251205_1525_core_RTC_30nM_nsp13_NTPs_500uM_control_repeat_run,dsRNA,220,158,0.718182,approach1_scaled_dt,36,184,11,147,25,37
+/scistor/guest/ssk256/tweezcat/data/dsRNA/20251205_2nd/exp1/20251205_1820_core_RTC_30nM_nsp13_NTPs_500uM_control_repeat_run,20251205_1820_core_RTC_30nM_nsp13_NTPs_500uM_control_repeat_run,dsRNA,187,116,0.620321,approach1_scaled_dt,50,137,16,100,34,37
+/scistor/guest/ssk256/tweezcat/data/ssRNA/20260214/exp1/20260214_1439_core_RTC_nsp9_2uM_nsp13_30nM_nsp10_14_sep_25nM_nsp10_spikeup_1uM_NTPs_500uM_2pCMeCTP_1000uM_AD_test,20260214_1439_core_RTC_nsp9_2uM_nsp13_30nM_nsp10_14_sep_25nM_nsp10_spikeup_1uM_NTPs_500uM_2pCMeCTP_1000uM_AD_test,ssRNA,218,145,0.665138,approach1_scaled_dt,56,162,26,119,30,43
+/scistor/guest/ssk256/tweezcat/data/ssRNA/20260214_/exp1/20260214_1826_core_RTC_nsp9_2uM_nsp13_30nM_nsp10_14_sep_25nM_nsp10_spikeup_1uM_NTPs_500uM_2pCMeCTP_1000uM_AD_test_repeat_run,20260214_1826_core_RTC_nsp9_2uM_nsp13_30nM_nsp10_14_sep_25nM_nsp10_spikeup_1uM_NTPs_500uM_2pCMeCTP_1000uM_AD_test_repeat_run,ssRNA,267,186,0.696629,approach1_scaled_dt,104,163,58,128,46,35
+/scistor/guest/ssk256/tweezcat/data/ssRNA/20260222/exp1/experiment,experiment,ssRNA,250,186,0.744000,approach1_scaled_dt,41,209,13,173,28,36

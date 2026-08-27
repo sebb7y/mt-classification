@@ -1,0 +1,14 @@
+{
+  "model": "RidgeClassifierCV_4feat_scaled",
+  "representation": "scaled",
+  "split_file": "eval_minirocket_real/split.json",
+  "target_length": 5000,
+  "n_train": 4302,
+  "n_test": 1076,
+  "test_accuracy": 0.6394052044609665,
+  "train_time_seconds": 0.07381463050842285,
+  "load_time_seconds": 209.60375595092773,
+  "seed": 42,
+  "internal_test_ratio": 0.2,
+  "timestamp": "2026-03-08T00:09:59.711580"
+}

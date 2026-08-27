@@ -1,0 +1,12 @@
+{
+  "model": "RidgeClassifierCV_4feat",
+  "dataset": "eval_minirocket_real/cache_minirocket_split/real_dataset_split.npz",
+  "n_segments": 626174,
+  "test_accuracy": 0.6267816504970655,
+  "train_time_seconds": 2.65903377532959,
+  "total_wall_seconds": 5.320738077163696,
+  "seed": 42,
+  "segment_length": 5000,
+  "stride": 2500,
+  "timestamp": "2026-03-08T00:44:54.422521"
+}

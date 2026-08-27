@@ -1,0 +1,5 @@
+{
+  "segment_length": 5000,
+  "stride": 2500,
+  "representation": "split"
+}

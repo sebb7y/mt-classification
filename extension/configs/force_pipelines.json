@@ -1,0 +1,599 @@
+[
+  {
+    "name": "kmeans",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "none"
+  },
+  {
+    "name": "fpca_kmeans",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "kmeans_percentile",
+    "representation": "percentile_grid",
+    "clustering": "kmeans",
+    "dim_reduction": "none"
+  },
+  {
+    "name": "fpca_kmeans_percentile",
+    "representation": "percentile_grid",
+    "clustering": "kmeans",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "kmeans_union",
+    "representation": "common_grid_union",
+    "clustering": "kmeans",
+    "dim_reduction": "none"
+  },
+  {
+    "name": "fpca_kmeans_union",
+    "representation": "common_grid_union",
+    "clustering": "kmeans",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "umap_kmeans",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "tsne_kmeans",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "tsne"
+  },
+  {
+    "name": "isomap_kmeans",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "isomap"
+  },
+  {
+    "name": "fpca_dbscan",
+    "representation": "common_grid_intersection",
+    "clustering": "dbscan",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "umap_dbscan",
+    "representation": "common_grid_intersection",
+    "clustering": "dbscan",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "tsne_dbscan",
+    "representation": "common_grid_intersection",
+    "clustering": "dbscan",
+    "dim_reduction": "tsne"
+  },
+  {
+    "name": "isomap_dbscan",
+    "representation": "common_grid_intersection",
+    "clustering": "dbscan",
+    "dim_reduction": "isomap"
+  },
+  {
+    "name": "lle_kmeans",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "laplacian_kmeans",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "laplacian"
+  },
+  {
+    "name": "lle_dbscan",
+    "representation": "common_grid_intersection",
+    "clustering": "dbscan",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "lle_optics",
+    "representation": "common_grid_intersection",
+    "clustering": "optics",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "laplacian_dbscan",
+    "representation": "common_grid_intersection",
+    "clustering": "dbscan",
+    "dim_reduction": "laplacian"
+  },
+  {
+    "name": "lle_kmeans_n5",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "lle",
+    "dim_reduction_n_components": 5
+  },
+  {
+    "name": "lle_kmeans_n15",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "lle",
+    "dim_reduction_n_components": 15
+  },
+  {
+    "name": "lle_kmeans_ng100",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "lle",
+    "n_grid": 100
+  },
+  {
+    "name": "lle_kmeans_nn8",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "lle",
+    "n_neighbors": 8
+  },
+  {
+    "name": "umap_dbscan_ms8",
+    "representation": "common_grid_intersection",
+    "clustering": "dbscan",
+    "dim_reduction": "umap",
+    "dbscan_min_samples": 8
+  },
+  {
+    "name": "umap_dbscan_n5",
+    "representation": "common_grid_intersection",
+    "clustering": "dbscan",
+    "dim_reduction": "umap",
+    "dim_reduction_n_components": 5
+  },
+  {
+    "name": "laplacian_dbscan_n15",
+    "representation": "common_grid_intersection",
+    "clustering": "dbscan",
+    "dim_reduction": "laplacian",
+    "dim_reduction_n_components": 15
+  },
+  {
+    "name": "laplacian_dbscan_nn8",
+    "representation": "common_grid_intersection",
+    "clustering": "dbscan",
+    "dim_reduction": "laplacian",
+    "n_neighbors": 8
+  },
+  {
+    "name": "laplacian_optics",
+    "representation": "common_grid_intersection",
+    "clustering": "optics",
+    "dim_reduction": "laplacian"
+  },
+  {
+    "name": "lle_kmeans_union",
+    "representation": "common_grid_union",
+    "clustering": "kmeans",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "umap_dbscan_percentile",
+    "representation": "percentile_grid",
+    "clustering": "dbscan",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "laplacian_dbscan_percentile",
+    "representation": "percentile_grid",
+    "clustering": "dbscan",
+    "dim_reduction": "laplacian"
+  },
+  {
+    "name": "umap_dbscan_force_percentile",
+    "representation": "force_percentile_grid",
+    "clustering": "dbscan",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "laplacian_dbscan_force_percentile",
+    "representation": "force_percentile_grid",
+    "clustering": "dbscan",
+    "dim_reduction": "laplacian"
+  },
+  {
+    "name": "umap_dbscan_energy_slope",
+    "representation": "energy_slope_percentile",
+    "clustering": "dbscan",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "laplacian_dbscan_energy_slope",
+    "representation": "energy_slope_percentile",
+    "clustering": "dbscan",
+    "dim_reduction": "laplacian"
+  },
+  {
+    "name": "umap_kmeans_union",
+    "representation": "common_grid_union",
+    "clustering": "kmeans",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "lle_percentile_kmeans",
+    "representation": "percentile_grid",
+    "clustering": "kmeans",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "umap_hdbscan",
+    "representation": "common_grid_intersection",
+    "clustering": "hdbscan",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "fpca_hdbscan",
+    "representation": "common_grid_intersection",
+    "clustering": "hdbscan",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "tsne_hdbscan",
+    "representation": "common_grid_intersection",
+    "clustering": "hdbscan",
+    "dim_reduction": "tsne"
+  },
+  {
+    "name": "isomap_hdbscan",
+    "representation": "common_grid_intersection",
+    "clustering": "hdbscan",
+    "dim_reduction": "isomap"
+  },
+  {
+    "name": "lle_hdbscan",
+    "representation": "common_grid_intersection",
+    "clustering": "hdbscan",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "laplacian_hdbscan",
+    "representation": "common_grid_intersection",
+    "clustering": "hdbscan",
+    "dim_reduction": "laplacian"
+  },
+  {
+    "name": "umap_optics",
+    "representation": "common_grid_intersection",
+    "clustering": "optics",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "fpca_optics",
+    "representation": "common_grid_intersection",
+    "clustering": "optics",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "tsne_optics",
+    "representation": "common_grid_intersection",
+    "clustering": "optics",
+    "dim_reduction": "tsne"
+  },
+  {
+    "name": "isomap_optics",
+    "representation": "common_grid_intersection",
+    "clustering": "optics",
+    "dim_reduction": "isomap"
+  },
+  {
+    "name": "tsne_kmeans_percentile",
+    "representation": "percentile_grid",
+    "clustering": "kmeans",
+    "dim_reduction": "tsne"
+  },
+  {
+    "name": "fpca_dbscan_percentile",
+    "representation": "percentile_grid",
+    "clustering": "dbscan",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "force_percentile_lle_kmeans",
+    "representation": "force_percentile_grid",
+    "clustering": "kmeans",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "force_percentile_normalised_lle_kmeans",
+    "representation": "force_percentile_normalised",
+    "clustering": "kmeans",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "percentile_normalised_lle_kmeans",
+    "representation": "percentile_grid_normalised",
+    "clustering": "kmeans",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "energy_slope_lle_kmeans",
+    "representation": "energy_slope_percentile",
+    "clustering": "kmeans",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "force_slope_lle_kmeans",
+    "representation": "force_slope_percentile",
+    "clustering": "kmeans",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "arc_length_lle_kmeans",
+    "representation": "arc_length_percentile",
+    "clustering": "kmeans",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "landmark_quartiles_kmeans",
+    "representation": "landmark_quartiles",
+    "clustering": "kmeans",
+    "dim_reduction": "none"
+  },
+  {
+    "name": "landmark_quartiles_fpca_kmeans",
+    "representation": "landmark_quartiles",
+    "clustering": "kmeans",
+    "dim_reduction": "fpca",
+    "dim_reduction_n_components": 5
+  },
+  {
+    "name": "umap_kmeans_percentile",
+    "representation": "percentile_grid",
+    "clustering": "kmeans",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "isomap_kmeans_percentile",
+    "representation": "percentile_grid",
+    "clustering": "kmeans",
+    "dim_reduction": "isomap"
+  },
+  {
+    "name": "fpca_dbscan_union",
+    "representation": "common_grid_union",
+    "clustering": "dbscan",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "laplacian_kmeans_union",
+    "representation": "common_grid_union",
+    "clustering": "kmeans",
+    "dim_reduction": "laplacian"
+  },
+  {
+    "name": "arc_length_umap_kmeans",
+    "representation": "arc_length_percentile",
+    "clustering": "kmeans",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "energy_slope_fpca_kmeans",
+    "representation": "energy_slope_percentile",
+    "clustering": "kmeans",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "landmark_quartiles_umap_kmeans",
+    "representation": "landmark_quartiles",
+    "clustering": "kmeans",
+    "dim_reduction": "umap",
+    "dim_reduction_n_components": 5
+  },
+  {
+    "name": "arc_length_fpca_kmeans",
+    "representation": "arc_length_percentile",
+    "clustering": "kmeans",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "force_slope_umap_kmeans",
+    "representation": "force_slope_percentile",
+    "clustering": "kmeans",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "energy_slope_umap_kmeans",
+    "representation": "energy_slope_percentile",
+    "clustering": "kmeans",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "tsne_kmeans_union",
+    "representation": "common_grid_union",
+    "clustering": "kmeans",
+    "dim_reduction": "tsne"
+  },
+  {
+    "name": "percentile_normalised_umap_kmeans",
+    "representation": "percentile_grid_normalised",
+    "clustering": "kmeans",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "raw_ext_by_force_kmeans",
+    "representation": "raw_extension_sorted_by_force",
+    "clustering": "kmeans",
+    "dim_reduction": "none"
+  },
+  {
+    "name": "raw_ext_by_force_fpca_kmeans",
+    "representation": "raw_extension_sorted_by_force",
+    "clustering": "kmeans",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "raw_ext_by_force_umap_kmeans",
+    "representation": "raw_extension_sorted_by_force",
+    "clustering": "kmeans",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "raw_ext_by_force_tsne_kmeans",
+    "representation": "raw_extension_sorted_by_force",
+    "clustering": "kmeans",
+    "dim_reduction": "tsne"
+  },
+  {
+    "name": "raw_ext_by_force_lle_kmeans",
+    "representation": "raw_extension_sorted_by_force",
+    "clustering": "kmeans",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "raw_ext_by_force_umap_dbscan",
+    "representation": "raw_extension_sorted_by_force",
+    "clustering": "dbscan",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "raw_ext_by_force_laplacian_kmeans",
+    "representation": "raw_extension_sorted_by_force",
+    "clustering": "kmeans",
+    "dim_reduction": "laplacian"
+  },
+  {
+    "name": "raw_ext_by_force_norm_kmeans",
+    "representation": "raw_extension_sorted_by_force_normalised",
+    "clustering": "kmeans",
+    "dim_reduction": "none"
+  },
+  {
+    "name": "raw_ext_by_force_norm_fpca_kmeans",
+    "representation": "raw_extension_sorted_by_force_normalised",
+    "clustering": "kmeans",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "raw_ext_by_force_norm_umap_kmeans",
+    "representation": "raw_extension_sorted_by_force_normalised",
+    "clustering": "kmeans",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "raw_ext_by_force_norm_lle_kmeans",
+    "representation": "raw_extension_sorted_by_force_normalised",
+    "clustering": "kmeans",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "raw_ext_by_force_sub_kmeans",
+    "representation": "raw_extension_sorted_by_force_subsampled",
+    "clustering": "kmeans",
+    "dim_reduction": "none"
+  },
+  {
+    "name": "raw_ext_by_force_sub_fpca_kmeans",
+    "representation": "raw_extension_sorted_by_force_subsampled",
+    "clustering": "kmeans",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "raw_ext_by_force_sub_umap_kmeans",
+    "representation": "raw_extension_sorted_by_force_subsampled",
+    "clustering": "kmeans",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "raw_ext_by_force_sub_umap_dbscan",
+    "representation": "raw_extension_sorted_by_force_subsampled",
+    "clustering": "dbscan",
+    "dim_reduction": "umap"
+  },
+  {
+    "name": "raw_ext_by_force_sub_lle_kmeans",
+    "representation": "raw_extension_sorted_by_force_subsampled",
+    "clustering": "kmeans",
+    "dim_reduction": "lle"
+  },
+  {
+    "name": "raw_ext_by_force_sub_laplacian_kmeans",
+    "representation": "raw_extension_sorted_by_force_subsampled",
+    "clustering": "kmeans",
+    "dim_reduction": "laplacian"
+  },
+  {
+    "name": "ensemble_top3_majority",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "none",
+    "ensemble_pipelines": [
+      "lle_kmeans",
+      "umap_dbscan",
+      "laplacian_dbscan"
+    ]
+  },
+  {
+    "name": "ensemble_top5_majority",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "none",
+    "ensemble_pipelines": [
+      "lle_kmeans",
+      "umap_dbscan",
+      "laplacian_dbscan",
+      "umap_hdbscan",
+      "tsne_dbscan"
+    ]
+  },
+  {
+    "name": "lle_kmeans_z5",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "lle",
+    "z_thresh": 5.0
+  },
+  {
+    "name": "umap_dbscan_z5",
+    "representation": "common_grid_intersection",
+    "clustering": "dbscan",
+    "dim_reduction": "umap",
+    "z_thresh": 5.0
+  },
+  {
+    "name": "laplacian_dbscan_z5",
+    "representation": "common_grid_intersection",
+    "clustering": "dbscan",
+    "dim_reduction": "laplacian",
+    "z_thresh": 5.0
+  },
+  {
+    "name": "kmeans_3cl",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "none",
+    "n_clusters": 3,
+    "n_init": 20
+  },
+  {
+    "name": "kmeans_arc_length",
+    "representation": "arc_length_percentile",
+    "clustering": "kmeans",
+    "dim_reduction": "none"
+  },
+  {
+    "name": "fpca_gmm",
+    "representation": "common_grid_intersection",
+    "clustering": "gmm",
+    "dim_reduction": "fpca"
+  },
+  {
+    "name": "ensemble_top3_majority_z5",
+    "representation": "common_grid_intersection",
+    "clustering": "kmeans",
+    "dim_reduction": "none",
+    "z_thresh": 5.0,
+    "ensemble_pipelines": [
+      "lle_kmeans_z5",
+      "umap_dbscan_z5",
+      "laplacian_dbscan_z5"
+    ]
+  }
+]

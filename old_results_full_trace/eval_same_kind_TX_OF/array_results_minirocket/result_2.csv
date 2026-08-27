@@ -1,0 +1,2 @@
+path,experiment_id,source,n_beads,correct,accuracy,method,n_predicted_good,n_predicted_bad,tp,tn,fp,fn
+/scistor/guest/ssk256/tweezcat/data/TX_OF/20250630_1255_TX_wt_OF_10pN_Pb37,20250630_1255_TX_wt_OF_10pN_Pb37,TX_OF,49,29,0.5918367346938775,minirocket,2,47,0,29,2,18

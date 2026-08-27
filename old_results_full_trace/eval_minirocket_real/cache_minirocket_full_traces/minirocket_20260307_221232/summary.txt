@@ -1,0 +1,45 @@
+Training Run Summary
+================================================================================
+
+Model Type: minirocket
+Timestamp: 20260307_221232
+Execution Time: 2026-03-07T22:12:32.844430
+
+Command Executed:
+  scripts/slurm_miniforest_train_real_full_traces.py --split-file eval_minirocket_real/split.json -o eval_minirocket_real/cache_minirocket_full_traces --model-type minirocket --max-traces 200 --holdout-by-experiment
+
+Configuration:
+  model_type: minirocket
+  use_existing_dataset: eval_minirocket_real/cache_minirocket_full_traces/real_dataset_full_traces_train_n263.npz + eval_minirocket_real/cache_minirocket_full_traces/real_dataset_full_traces_test_n1275.npz
+  full_traces: True
+  holdout_by_experiment: True
+  max_traces: 200
+  test_ratio: 0.2
+  seed: 42
+  n_traces: 1538
+  max_length: 330600
+  target_length: 66
+
+Runtime Information:
+  start_time: 2026-03-07T21:51:48.164227
+  end_time: 2026-03-07T22:12:32.839555
+  total_runtime_seconds: 1244.6753270626068
+
+Results:
+  Train Accuracy: 0.8625
+  Test Accuracy: 0.8486
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.75      0.83     10009
+           1       0.79      0.94      0.86      9991
+
+    accuracy                           0.85     20000
+   macro avg       0.86      0.85      0.85     20000
+weighted avg       0.86      0.85      0.85     20000
+
+
+Confusion Matrix:
+[[7545 2464]
+ [ 564 9427]]

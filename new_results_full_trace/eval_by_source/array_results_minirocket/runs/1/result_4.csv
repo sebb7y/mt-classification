@@ -1,0 +1,2 @@
+path,experiment_id,source,n_beads,correct,accuracy,method,n_predicted_good,n_predicted_bad,tp,tn,fp,fn
+/scistor/guest/ssk256/tweezcat/data/dsRNA/20251204_3rd/exp1/20251204_2006_core_RTC_30nM_nsp13_NTPs_500uM_control,20251204_2006_core_RTC_30nM_nsp13_NTPs_500uM_control,dsRNA,203,136,0.6699507389162561,minirocket,23,180,3,133,20,47
